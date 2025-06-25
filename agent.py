@@ -1,5 +1,6 @@
 import base64
 import logging
+import uuid
 
 from collections.abc import AsyncIterable
 from io import BytesIO
@@ -121,8 +122,6 @@ class ChartGenerationAgent:
             process=Process.sequential,
             verbose=False,
         )
-
-    import uuid
 
     def invoke(self, query, session_id: str | None = None) -> str:
         # Normalize or generate session_id

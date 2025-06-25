@@ -65,7 +65,7 @@ class ChartGenerationAgentExecutor(AgentExecutor):
                 )
             ]
 
-        await event_queue.enqueue_event(
+        event_queue.enqueue_event(
             completed_task(
                 context.task_id,
                 context.context_id,
