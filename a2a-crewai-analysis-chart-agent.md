@@ -15,6 +15,10 @@
 ```bash
 git clone git@github.com:a2aproject/a2a-samples.git
 cd a2a-samples/samples/python/agents/analytics
+
+# OR
+git clone git@github.com:sing1ee/a2a-crewai-charts-agent.git
+cd a2a-crewai-charts-agent
 ```
 
 ### 2. 创建环境配置
